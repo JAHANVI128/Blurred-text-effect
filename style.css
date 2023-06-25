@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background: url("night-sky-with-planets-galaxies-scene-generative-ai.jpg") center center fixed;
+    background-size:cover;
+}
+
+h1{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    font-size: 80px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    filter: blur(5px);
+    transition: 1s ease-in-out;
+}
+
+h1:hover{
+    filter: blur(0);
+}
